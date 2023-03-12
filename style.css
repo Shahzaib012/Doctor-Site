@@ -1,0 +1,404 @@
+.nav-space{
+    justify-content: space-between;
+}
+/* navbar */
+#top_nav{
+background-color: #ffc800;
+padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 25px;
+    /* margin-left: 100px; */
+    
+    justify-content: space-between;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbox{
+    background-color: #fed900;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    left: 42px;
+    box-shadow: 5px 4px 11px 0px #000000;
+    /* width: auto; */
+}
+#searchbtn{
+    z-index: 99;
+    position: relative;
+    background-color: #2ed40d;
+    color: white;
+    border: 0px solid #2ed40d;
+    border-radius: 0px;
+    
+}
+#searchbtn:hover{
+    background-color: rgb(13, 141, 163);
+    transition: all o.75s ease-in-out;
+}
+
+@media only screen and (max-width: 768px){
+
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -18px;
+    }
+}
+@media only screen and (max-width: 992px){
+
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -18px;
+    }
+}
+
+/* Banner */
+#banner{
+    background-color: #fed900;
+}
+#bannertext h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+#bannertext p{
+    color: white;
+    /* font-size: 70px; */
+    margin-top: 100px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#bannerimg{
+    margin-top: 100px;
+   
+}
+#banner-btn-1{
+    background-color: #2ed40d;
+    border: 2px solid #2ed40d;
+    color: white;
+}
+#banner-btn-2{
+    border: 2px solid white;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: -15px;
+}
+#banner-btn-1:hover {
+    
+ background-color:  rgb(13, 141, 163);
+ color: white;
+ border: 2px solid  rgb(13, 141, 163);
+}
+#banner-btn-2:hover {
+   
+    background-color:  rgb(13, 141, 163);
+    border: 1px solid  rgb(13, 141, 163);
+   }
+
+@media only screen and (max-width: 1300px){
+    #bannertext h1{
+        font-size: 50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 937px){
+    #bannertext h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 761px){
+    #bannertext h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 589px){
+    #bannertext h1{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 411px){
+    #bannertext h1{
+        font-size: 18px;
+    }
+}
+
+/* for paragraph */
+
+@media only screen and (max-width: 761px){
+    #bannertext p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 589px){
+    #bannertext p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 411px){
+    #bannertext p{
+        font-size: 11px;
+    }
+}
+
+/* for button */
+@media only screen and (max-width: 575px){
+    .mix-btn {
+       width: 100px;
+       height: 17px;
+       font-size: 10px;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+   
+}
+
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+     
+}
+#service-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#service-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#service-btn{
+    color: white;
+    background-color: #fed900;
+    border: 2px solid #fed900;
+    /* transition: all 0.75s ease-in-out; */
+}
+#service-btn:hover {
+    /* position: relative;
+    left: -15px; */
+    background-color: rgb(13, 141, 163);
+    border: 2px solid rgb(13, 141, 163);
+   }
+#service-img{
+    padding-top: 7%;
+    padding-left: 5%;
+    
+    /* border: 1px solid black; */
+}
+
+@media only screen and (max-width: 1300px){
+    #service-text h1{
+        font-size: 50px;
+    }
+   
+}
+
+@media only screen and (max-width: 1107px){
+    #service-text h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 898px){
+    #service-text h1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 810px){
+    #service-text h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 689px){
+    #service-text h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 584px){
+    #service-text h1{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 479px){
+    #service-text h1{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 360px){
+    #service-text h1{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px){
+    #service-text h1{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1107px){
+    #service-text p{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 898px){
+    #service-text p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 793px){
+    #service-text p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 689px){
+    #service-text p{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 584px){
+    #service-text p{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #service-btn{
+        width: 80px;
+        font-size: x-small;
+    }
+}
+
+/* counter */
+ 
+#counter-section{
+    min-height: 30vh!important;
+  
+   
+  
+  
+    background:linear-gradient(0deg, #fed800a9, #fed900), url(/images/stethoscop1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.counter-icon{
+    font-size: 100px;
+}
+
+@media only screen and (max-width:390px){
+.counter-icon{
+    font-size: 30px;
+}
+}
+
+
+
+/* blog................... */
+
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blo-p{
+    font-size: 20px ;
+    margin-bottom: 70px;
+}
+.article-detail{
+    padding: 15px;
+    border: 1px solid rgb(185,185,185);
+    border-top: 0;
+}
+.article-date,.article-link{
+    color: #00bec9;
+}
+
+/* footer......... */
+
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-search-box{
+background-color: #fed900;
+color: white;
+border: 0;
+padding: 15px;
+width: 100%;
+max-width: 250px;
+position: relative;
+left: 10px;
+}
+#footer-search-submit{
+background-color: #00bec9;
+color: white;
+border: 0;
+border-radius: 0;
+padding: 15px 40px;
+}
+
+.social-icon{
+    font-size: 55em;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1150px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width: 992px){
+    #footer-search-box{
+        max-width: 150px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
